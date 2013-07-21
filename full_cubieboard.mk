@@ -33,7 +33,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/allwinner/cubieboard/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_cubieboard
+PRODUCT_NAME := cubieboard
 PRODUCT_DEVICE := cubieboard
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on ZaTab
+PRODUCT_MODEL := CyanogenMod 10.1 on Cubieboard

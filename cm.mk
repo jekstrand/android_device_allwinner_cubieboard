@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := ZaTab
+PRODUCT_RELEASE_NAME := Cubieboard
 
 # Boot animation
 TARGET_BOOTANIMATION_NAME := horizontal-1024x768
@@ -13,8 +13,8 @@ $(call inherit-product, device/allwinner/cubieboard/full_cubieboard.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cubieboard
 PRODUCT_NAME := cm_cubieboard
-PRODUCT_BRAND := ZaReason
-PRODUCT_MODEL := ZaTab
+PRODUCT_BRAND := Cubieboard
+PRODUCT_MODEL := Cubieboard
 PRODUCT_MANUFACTURER := Allwinner
 
 #Set build fingerprint / ID / Product Name etc
