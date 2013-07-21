@@ -2,7 +2,8 @@
 PRODUCT_RELEASE_NAME := Cubieboard
 
 # Boot animation
-TARGET_BOOTANIMATION_NAME := horizontal-1024x768
+TARGET_SCREEN_HEIGHT := 720
+TARGET_SCREEN_WIDTH := 1280
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
